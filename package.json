@@ -1,0 +1,15 @@
+{
+  "name": "qyven-launchpad",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network robinhoodTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network robinhoodMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.26.3"
+  }
+}
